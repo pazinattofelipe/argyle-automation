@@ -1,0 +1,21 @@
+{
+  "name": "argyle",
+  "version": "1.0.0",
+  "description": "test automation with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --spec cypress/integration/login.feature"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "author": "Felipe Pazinatto",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  }
+}
