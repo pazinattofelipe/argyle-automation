@@ -20,6 +20,6 @@ npx cypress run
 
 ## How to create the Docker image and run it?
 ```
-docker build -t cypress-image:1.0.0 .
-docker run cypress-image:1.0.0
+docker build -t cypress-image .
+docker run cypress-image
 ```
